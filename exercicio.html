@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A santíssima trindade</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <style>
+        
+        img {
+            width: 100%;
+        }
+
+        header h1 {
+            text-align: center;
+        }
+
+        #carousel{
+            padding-bottom: 24px;
+        }
+
+        #col {
+            padding-bottom: 24px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="display-2">
+            A santíssima trindade automotiva
+        </h1>
+    </header>
+    <div id="carousel" class="container">
+        <div id="button-ex" class="carousel carousel-fade slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img class="rounded" src="https://cdn.pixabay.com/photo/2018/02/08/19/44/auto-3140170_1280.jpg" alt="Porsche 918 Spyder">
+                    <div class="carousel-caption">
+                        <h2>Porsche 918 Spyder</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="rounded" src="https://cdn.pixabay.com/photo/2017/10/15/20/59/mclaren-2855240_1280.jpg" alt="Mclaren P1">
+                    <div class="carousel-caption">
+                        <h2>Mclaren P1</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="rounded" src="https://images.unsplash.com/photo-1583121274602-3e2820c69888?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="Ferrari Ferrari LaFerrari">
+                    <div class="carousel-caption">
+                        <h2>Ferrari LaFerrari</h2>
+                    </div>
+                </div>
+            </div>
+            <button data-bs-target="#button-ex" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#button-ex" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" class="active" data-bs-target="#button-ex" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#button-ex" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#button-ex" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+    </div>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div id="col" class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Ferrari LaFerrai</h3>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1583121274602-3e2820c69888?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="Ferrari Ferrari LaFerrari">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h4>Ferrari LaFerrari</h4>
+                            </div>
+                            <div class="card-text">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero corporis repellat officia reprehenderit enim mollitia, illo eligendi eos deserunt corrupti at eum! Esse perspiciatis, error eos quae iure corporis velit!</p>
+                                <a href="#" class="btn btn-primary">Mais informações</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="col" class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Mclaren P1</h3>
+                        </div>
+                        <img src="https://cdn.pixabay.com/photo/2017/10/15/20/59/mclaren-2855240_1280.jpg" alt="Mclaren P1">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h4>Mclaren P1</h4>
+                            </div>
+                            <div class="card-text">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero corporis repellat officia reprehenderit enim mollitia, illo eligendi eos deserunt corrupti at eum! Esse perspiciatis, error eos quae iure corporis velit!</p>
+                                <a href="#" class="btn btn-primary">Mais informações</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="col" class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Porsche 918 Spyder</h3>
+                        </div>
+                        <img src="https://cdn.pixabay.com/photo/2018/02/08/19/44/auto-3140170_1280.jpg" alt="Porsche 918 Spyder">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h4>Porsche 918 Spyder</h4>
+                            </div>
+                            <div class="card-text">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero corporis repellat officia reprehenderit enim mollitia, illo eligendi eos deserunt corrupti at eum! Esse perspiciatis, error eos quae iure corporis velit!</p>
+                                <a href="#" class="btn btn-primary">Mais informações</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
